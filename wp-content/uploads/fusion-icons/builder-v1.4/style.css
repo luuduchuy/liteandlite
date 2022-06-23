@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'builder';
+  src:  url('fonts/builder.eot?phssmw');
+  src:  url('fonts/builder.eot?phssmw#iefix') format('embedded-opentype'),
+    url('fonts/builder.ttf?phssmw') format('truetype'),
+    url('fonts/builder.woff?phssmw') format('woff'),
+    url('fonts/builder.svg?phssmw#builder') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="builder-"], [class*=" builder-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'builder' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.builder-mobile:before {
+  content: "\e906";
+}
+.builder-building-o:before {
+  content: "\e907";
+}
+.builder-close:before {
+  content: "\e908";
+}
+.builder-menu:before {
+  content: "\e909";
+}
+.builder-play:before {
+  content: "\e905";
+}
+.builder-home:before {
+  content: "\e904";
+}
+.builder-arrow:before {
+  content: "\e901";
+}
+.builder-area:before {
+  content: "\e900";
+}
+.builder-bathroom:before {
+  content: "\e902";
+}
+.builder-bedroom:before {
+  content: "\e903";
+}
